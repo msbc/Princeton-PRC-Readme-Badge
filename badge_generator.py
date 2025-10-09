@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Generate readme badges for the Princeton RSE group."""
+# /// script
+# requires-python = ">=3.13"
+# ///
 
 import base64
 

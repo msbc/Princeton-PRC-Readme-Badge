@@ -1,6 +1,6 @@
 # Princeton-RSE-Readme-Badge
 
-Contains a script to generate a readme badge for Princeton RSEs. Just clone the repo then run `generate_badge.py` and it will walk you through the process.
+Contains a script to generate a readme badge for Princeton RSEs. Just clone the repo then run `badge_generator.py` and it will walk you through the process. `badge_generator.py` can be run either directly with `./badge_generator.py` or with `uv run badge_generator.py`; the latter will ensure that the requirements are met using inline script metadata(PEP 723). `badge_generator.py` only requires Python 3.13 or newer and will likely work with older versions of Python, though I haven't tested it with anything older than 3.13.
 
 ## Examples
 
