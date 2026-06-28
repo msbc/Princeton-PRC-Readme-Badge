@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate readme badges for the Princeton RSE group."""
+"""Generate readme badges for Princeton Research Computing."""
 # /// script
 # requires-python = ">=3.13"
 # ///
@@ -48,7 +48,7 @@ def get_right_side_text() -> str:
 
 def main() -> None:
     # ===== Parameters =====
-    left_text = "Princeton RSE".replace(" ", "_").replace("-", "--")
+    left_text = "Princeton RC".replace(" ", "_").replace("-", "--")
 
     left_color = "#5A575B".replace("#", "%23")
     right_color = "#F58025".replace("#", "%23")
@@ -56,10 +56,10 @@ def main() -> None:
     icon_path = "PU_mark.svg"
 
     base_link = "https://img.shields.io/badge/"
-    badge_name = "Princeton RSE Badge"
+    badge_name = "Princeton RC Badge"
     icon_prefix_svg = ".svg?logo=data:image/svg+xml;base64,"
     clickable_link = (
-        "https://researchcomputing.princeton.edu/services/research-software-engineering"
+        "https://researchcomputing.princeton.edu/"
     )
     # ===== End of Parameters =====
 
